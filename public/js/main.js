@@ -1,28 +1,31 @@
 // EXO 1
 
-let personne = {
-    argent : 30,
-}
+// let personne = {
+//     argent : 30,
+//     panier : [],
+// }
 
-let magasin = {
-    chocolat : 2,
-    tartine : 3.5,
-    vendre(a) {
-        let acheter = prompt("Que veux-tu acheter ?")
-        for (const key in this) {
-            console.log(key);
-            if (key == acheter) {
-                console.log(key);
-                console.log(magasin[key]);
-                a.argent == magasin[key]
-            }
-        }
-    }
-}
+// let magasin = {
+//     chocolat : 2,
+//     tartine : 3.5,
+//     vendre(a) {
+//         let acheter = prompt("Que veux-tu acheter ?")
+//         for (const key in this) {
+//             console.log(key);
+//             if (key == acheter) {
+//                 console.log(key);
+//                 console.log(magasin[key]);
+//                 a.argent == magasin[key]
+//             }
+//         }
+//     }
+// }
 
-magasin.vendre(personne);
-console.log(magasin);
-console.log(personne);
+// magasin.vendre(personne);
+// console.log(magasin);
+// console.log(personne);
+
+// AUTRE VERSION - CORRECTION
 
 // // EXO 2
 
@@ -54,3 +57,5 @@ console.log(personne);
 
 // vieil_homme.saluer();
 // console.log(vieil_homme);
+
+// VOIR CORRECTION
